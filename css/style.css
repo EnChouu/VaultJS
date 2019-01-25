@@ -1,0 +1,81 @@
+body {
+    background: beige;
+}
+
+.container {
+    margin: 20px auto 0 auto;
+    width: 80%;
+    align-items: center;
+}
+
+.p-30 {
+   /*width: 30%;*/
+   width: 50%;
+}
+
+.vaultContainer {
+    width: 400px;
+    height: 365px;
+    background: #5b6463;
+    padding: 3px;
+}
+
+.vaultContainer .light {
+    background: black;
+    width: 200px;
+    float: left;
+    height: 30px;
+}
+
+.vaultContainer .light.red {
+    background: darkred;
+    filter: brightness(50%);
+}
+
+.vaultContainer .light.green {
+    background: darkgreen;
+    filter: brightness(50%);
+}
+
+.vaultContainer .light.blink {
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+}
+
+.clearfix {
+    clear: both;
+}
+
+.entered-code {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+    margin: 4px auto;
+    background: black;
+}
+
+.littleHack {
+    width: 100%;
+}
+
+.vault-buttons {
+    width: 176px;
+    margin: 20px auto 0 auto;
+}
+.vault-buttons > button.null-btn {
+    width: 170px;
+}
+
+.vault-buttons > button {
+    background: lightgray;
+    cursor: pointer;
+    color: black;
+    width: 50px;
+    height: 50px;
+    border: black 1px solid;
+    margin: 3px;
+}
+.vault-notif {
+    color: black;
+    text-align: center;
+}
